@@ -24,13 +24,15 @@ nav{
     justify-content: center;
 }
 .image{
-    background-image: url("https://picsum.photos/600/400");
+    background-image: url("https://picsum.photos/800/500");
     background-repeat: no-repeat;
     background-size: cover;
-    color: purple;
+    color: white;
     font-size: 2rem;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 footer{
     background-color: rebeccapurple;
