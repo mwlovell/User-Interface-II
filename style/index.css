@@ -1,1 +1,84 @@
-/* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size: 1.8rem;
+    font-family: monospace;
+    background-color:pink;
+    color: purple;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    background-image: url("https://picsum.photos/800/500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 2rem;
+    width: 800px;
+    height: 500px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+footer{
+    background-color: rebeccapurple;
+    padding:20px;
+    text-align: center;
+
+}
+button footer{
+    background-color: pink;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    padding: 5px 10px;
+    transition: 2s;
+
+}
+button footer:hover{
+    background-color: rebeccapurple;
+    color: pink;
+    border: 1px solid pink;
+
+
+}
+.row, .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.port{
+    text-align: center;
+}
+button{
+    background-color: rebeccapurple;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    transition: 2s;
+
+}
+button:hover{
+    background-color: white;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
