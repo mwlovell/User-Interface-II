@@ -44,7 +44,7 @@ button footer{
     background-color: pink;
     color: rebeccapurple;
     border: 1px solid rebeccapurple;
-    padding: 5px 10px;
+    padding: 5rem 10px;
     transition: 2s;
 
 }
@@ -84,20 +84,67 @@ button a{
 }
 
 @media(max-width:800px){
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 3rem;
+        
+    }
+
+        /* .links{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+    
+    } */
+     header .nav{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 5rem;
+            
+
+    }
+    .h1{
+        width: 100%;
+        
+    }
     .image{
         width: 80%;
     }
-    .button{
-        padding: 2px 8px;
+     nav .button {
+         margin-top: 5rem;
+        width:40%;
+        margin:1.5% 0;
     }
-    body{
+    .button a{
+        width: 100%;
+    }
+    .button img{
+        padding: 2px 8px;
+        width:40%;
+    }
+
+    }
+    /* body{
         font-size:1.5rem;
     }
     .port{
         padding: 2%;
-    }
+    } */
 
-}
+
 @media(max-width:500px){
     .body{
         font-size: 1rem;
@@ -108,9 +155,25 @@ button a{
 
     }
     .row, .row2{
+        display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        justify-content: space-around;
         
+        
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top div{
+        width: 90%;
+    }
+    .port{
+        width: 40%;
+        margin:4% 0;
+
+
     }
     
 }
